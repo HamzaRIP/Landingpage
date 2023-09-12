@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header{
@@ -76,6 +77,11 @@ button{
     gap: 20px;
 }
 
+.title.two{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
 .images{
     display: flex;
     justify-content: space-around;
@@ -95,12 +101,53 @@ button{
     flex-basis: 145px;
 }
 
-.container .bottom{
+.bottom.two{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    padding: 100px;
 }
 
+.box.one{
+    padding: 50px 90px;
+    padding-bottom: 10px;
+}
 
+.author{
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+    align-self: flex-end;
+}
+
+.bottom.three{
+    background-color: #3882F6;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.box.two{
+    color: #F9FAF8;
+}
+
+.container button{
+    border-color: #F9FAF8;
+    flex-shrink: 0;
+    width: 150px;
+    flex-basis: 100px;
+    padding: 5px;
+}
 
 .footer{
     display: flex;
