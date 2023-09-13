@@ -1,3 +1,7 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -82,23 +86,21 @@ button{
     padding-top: 20px;
 }
 
-.images{
+.images.and.texts{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 95px;
-    flex-shrink: 1;
+    justify-content: space-between;
 }
 
-.texts{
+.square{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-basis: 150px;
 }
 
 .text{
-    text-align: center;
-    flex-basis: 145px;
+    align-self: center;
 }
 
 .bottom.two{
